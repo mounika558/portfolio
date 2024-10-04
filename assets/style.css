@@ -143,9 +143,9 @@ i:hover {
     align-items: flex-start;
     justify-content: right;
     position:absolute;
-    top:75%;
+    top:80%;
     bottom:0;
-    left:80%;
+    left:5%;
 }
 .skill-col1{
     background-color: azure;
@@ -193,14 +193,14 @@ margin:0;
     position:absolute;
     top:120%;
     bottom:0;
-    left:80%;
+    left:5%;
 }
 .projects{
     display:block;
     align-items:flex-start;
     justify-content:left;
     left:5%;
-    top:125%;
+    top:130%;
     position: absolute;
 }
 .project-des1,.project-des2{
@@ -230,11 +230,7 @@ right:10%;
     width:200px;
     height:200px;
 }
-.contact{
-    top:180%;
-    position: absolute;
 
-}
 #contact{
     font-size: 50px;
     display:flex;
@@ -250,7 +246,7 @@ right:10%;
     align-items:flex-start;
     justify-content:left;
     left:5%;
-    top:180%;
+    top:178%;
     position: absolute;
 }
 .get-info input{
@@ -267,12 +263,14 @@ right:10%;
 .my-info{
     display:flex;
     align-items:flex-start;
-    justify-content:left;
-    left:5%;
-    top:205%;
+    justify-content:right;
+    top:179%;
+    right:70%;
     position: absolute;
+    width:fit-content;
+
 }
-.my-info .email {
+.my-info .email{
     font-size: 20px;
     display:grid;
 }
@@ -283,6 +281,8 @@ right:10%;
     top:140%;
     bottom:0;
     left:80%;
+    padding:10px;
+    color:white;
 }
 .email p{
     align-items: flex-start;
@@ -291,4 +291,5 @@ right:10%;
     top:150%;
     bottom:0;
     left:80%;
+    padding:40px;
 }
