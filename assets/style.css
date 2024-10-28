@@ -354,13 +354,16 @@ footer{
         .contact{
             padding-top:40px;
         }
+        .projects{
+            
+        }
 }
 @media screen and (min-width:1201px){
     .profileimage{width: 200px;       
         height:200px;  
         top:46%;
         bottom:0;
-        left:60%;
+        left:50%;
         }
         .intro p{
             text-align:left;
@@ -368,31 +371,32 @@ footer{
             }
             .skills{
                 font-size: 40px;
-                top:83%;
+                top:80%;
                 bottom:0;
                 left:5%;
             }
             .skill-col1 img{
-            height:5%;
+            height:6%;
             width:6%;
-            padding:10px;
+            padding-left:10px;
+            
             }
     
             .tool-img1{
                 width:80%;
                 height:80%;
-                margin:100px 50px 1-px 80px;
+                margin:100px 50px 10px 100px;
                 padding:80px 80px 80px 30px;
             }
             .tool-img1 img{
-            height:5%;
+            height:7%;
             width:6%;
             padding:10px;
             border-radius:30px;
             }
             .my-info {
                  text-align: center;
-                 margin-left:50px;
+                 margin-left:200px;
             }
             footer{
                 display: flex;
@@ -437,7 +441,7 @@ footer{
         .tool-img1{
             width:80%;
             height:80%;
-            margin:100px 50px 1-px 80px;
+            margin:100px 50px 10px 80px;
             padding:80px 80px 80px 30px;
         }
         .tool-img1 img{
@@ -494,7 +498,7 @@ padding:10px;
 .tool-img1{
     width:80%;
     height:80%;
-    margin:100px 50px 1-px 80px;
+    margin:100px 50px 10px 80px;
     padding:80px 80px 80px 30px;
 }
 .tool-img1 img{
@@ -533,29 +537,35 @@ footer{
         font-size: 40px;
         top:83%;
         bottom:0;
+        left:3%;
+    }
+    .skill-col1{
         left:5%;
     }
     .skill-col1 img{
-    height:5%;
-    width:6%;
-    padding:10px;
+    height:4%;
+    width:10%;
+    padding:20px;
+   
     }
 
     .tool-img1{
         width:80%;
         height:80%;
-        margin:100px 50px 1-px 80px;
+        margin:100px 50px 10px 80px;
         padding:80px 80px 80px 30px;
+    
     }
     .tool-img1 img{
-    height:5%;
-    width:6%;
-    padding:10px;
+    height:4%;
+    width:10%;
+    padding:20px;
     border-radius:30px;
     }
     .my-info {
          text-align: center;
-         margin-left:50px;
+         margin-left:0px;
+         top:210%;
     }
     footer{
         display: flex;
@@ -565,10 +575,29 @@ footer{
     }
     #contact{
         padding-top:25px;
+        top:180%;
     }
     .contact{
         padding-top:40px;
+        top:187%;
     }
+
+    .get-info{
+        display:grid;
+        column-count:0;
+    }
+    .project{
+        padding-top:25px;
+    }
+    .projects{
+        display:grid;
+        gap:20px;
+    }
+    .social i{
+       padding:20px;
+    }
+   
+
 }
 
 
