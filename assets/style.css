@@ -28,10 +28,15 @@ cursor:pointer;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
 }
 .hello{
-    font-size:50px;
+    font-size:65px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color:rgb(150, 204, 14);
+}
+.welcome{
+    font-size:50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 .text{
     font-size:28px;
@@ -82,12 +87,9 @@ i:hover{
    color:rgb(112, 110, 110);
 }
 
-.skills{
-    width:140px;
-    height:140px;
-}
 .skills>img{
-    padding:20px;
+    width:85px;
+    height:80px;
 }
 .txt{
     font-size:23px;
@@ -108,10 +110,15 @@ i:hover{
     text-align:center;
 }
 .quote{
-    font-weight:bolder;
-    font-size: 28px; 
+    font-size: 20px; 
     font-style:italic;
     color:rgb(229, 223, 223);
+}
+blockquote{
+    font-size:22px;
+    color:rgb(165, 212, 79);
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* .image{
     display:flex;

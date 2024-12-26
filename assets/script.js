@@ -15,5 +15,4 @@ function details(){
     alert('details shared successfully');
     return;
     }
-
 }
